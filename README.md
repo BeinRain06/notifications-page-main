@@ -45,8 +45,8 @@ _Mobile Screenshot_
 
 ### Links
 
-- Solution URL: [https://github.com/BeinRain06/notifications-page-main.git](https://your-solution-url.com)
-- Live Site URL: [https://beinrain06.github.io/notifications-page-main/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/BeinRain06/notifications-page-main.git](https://github.com/BeinRain06/notifications-page-main.git)
+- Live Site URL: [https://beinrain06.github.io/notifications-page-main/](https://beinrain06.github.io/notifications-page-main/)
 
 ## My process
 
