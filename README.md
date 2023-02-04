@@ -17,8 +17,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 First page Notification Build, Notifications help have Feedback of what users have done in one blog, forum, or some similar kind of webpages. We might learn more about Notifications when being in a crew.
@@ -38,10 +36,10 @@ Users should be able to:
 ### Screenshot
 
 _Desktop Screenshot_
-![./DeskTop_Screenshot.png](./screenshot.jpg)
+![./DeskTop_Screenshot.png](./DeskTop_Screenshot.png)
 
 _Mobile Screenshot_
-![./Mobile_Screenshot.png](./screenshot.jpg)
+![./Mobile_Screenshot.png](./Mobile_Screenshot.png)
 
 ### Links
 
@@ -52,7 +50,7 @@ _Mobile Screenshot_
 
 Kind of harsh my Process.
 
-have first implement the whole page in html/css and then rezrite it to suit with ReactJs
+have first implement the whole page in html/css and then rewrite it to suit with ReactJs
 here are the features used:
 
 ### Built with
@@ -67,13 +65,11 @@ Walk through Live site Url Above and you might see.
 ### What I learned
 
 I learn a lot in this project because i was implementing it in React.
-It mwde me revies my knowledges on css alignments box, perform basic rendering zith reactjs, and play with little animations and hover. Hope you will enjoy the looks like...
-
-To see how you can add code snippets, see below:
+It made me reviews my knowledges on css alignments box, perform basic rendering with reactjs, and play with little animations and hover. Hope you will enjoy the looks like...
 
 ### Continued development
 
-I like to ;qke this first page dynamic. The idea is to render notication randomly each time on the button `update` save every page in local Storage, and goes back the the previous page showns in the DOM zhen hitting the `reload` webpage button. I think it can enlight the notification-page much bigger.
+I like to make this first page dynamic. The idea is to render notication randomly each time on the button `update` save every page in local Storage, and goes back the the previous page showns in the DOM when hitting the `reload` webpage button. I think it can enlight the notification-page much bigger.
 
 ### Useful resources
 

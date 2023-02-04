@@ -17,9 +17,6 @@ function Notification() {
     <div className="all_users_post">
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Mark} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -36,25 +33,12 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">1m ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
-            {/* <div className="message">
-              <p className="priv_message"></p>
-            </div> */}
           </div>
         </div>
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Angela} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -71,25 +55,12 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">5m ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
-            {/* <div className="message">
-              <p className="priv_message"></p>
-            </div> */}
           </div>
         </div>
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Jacob} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -108,25 +79,12 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">1 day ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
-            {/* <div className="message">
-              <p className="priv_message"></p>
-            </div> */}
           </div>
         </div>
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Rizky} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -143,13 +101,6 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">5 days ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
             <div className="message">
               <p className="priv_message">
@@ -163,9 +114,6 @@ function Notification() {
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Kimberly} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -190,17 +138,11 @@ function Notification() {
                 />
               </div>
             </div>
-            {/* <div className="message">
-              <p className="priv_message"></p>
-            </div> */}
           </div>
         </div>
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Nathan} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -219,25 +161,12 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">2 weeks ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
-            {/* <div className="message">
-              <p className="priv_message"></p>
-            </div> */}
           </div>
         </div>
       </div>
       <div className="noti_container">
         <div className="noti_content1">
-          {/* <div className="my_img">
-            <img src={Anna} alt="Oops Lost1!" className="img_show" />
-          </div> */}
           <div className="reaction_made">
             <div className="user_post">
               <div className="layer_user">
@@ -254,17 +183,7 @@ function Notification() {
                 <div className="dot"></div>
               </div>
               <p className="theTime">2 weeks ago</p>
-              {/* <div className="picture">
-                <img
-                  src={props.feature.pictureCommented}
-                  alt="Oops Lost2!"
-                  className="picture_commented"
-                />
-              </div> */}
             </div>
-            {/* <div className="message">
-              <p className="priv_message">Hi! I'm gone</p>
-            </div> */}
           </div>
         </div>
       </div>

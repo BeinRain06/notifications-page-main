@@ -157,7 +157,7 @@ button.mark_all_read {
 }
 
 .title h3:hover {
-  color: #4e331a;
+  color: hsl(27, 8%, 78%);
 }
 
 .title_page {
@@ -343,8 +343,15 @@ button.mark_all_read {
 
 @media (max-width: 626px) {
   body {
-    font-size: 8px;
-    height: 570px;
+    font-size: 10px;
+    height: 280px;
+  }
+
+  .main_container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
   }
 
   .my_img {
@@ -362,11 +369,21 @@ button.mark_all_read {
     width: 18px;
     height: 18px;
   }
+
+  .title_page {
+    display: flex;
+    flex-direction: row;
+    width: calc(80vw - 3em);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+  }
+
   .noti_container {
-    max-width: 41vw;
-    width: calc(100% - 10px);
-    padding: 0.35rem;
-    margin: 0 auto;
+    align-items: left;
+    max-width: 84vw;
+    width: calc(84vw - 2rem);
+    padding: 0.35rem 0.7rem;
   }
 
   .reaction_made {
@@ -374,8 +391,23 @@ button.mark_all_read {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    min-width: 34vw;
-    width: calc(36vw - 1em);
+    min-width: 60vw;
+    width: calc(76vw);
+    padding-left: 0.65rem;
+  }
+
+  .theTime {
+    position: absolute;
+    top: calc(1.1rem + 0.8em);
+    left: calc(3.9rem - 0.1em);
+  }
+
+  .my_img {
+    position: relative;
+    top: -0.2rem;
+    left: 0;
+    width: 50px;
+    height: 50px;
   }
 
   .dot {
@@ -387,52 +419,13 @@ button.mark_all_read {
     border-radius: 50%;
     background: rgb(177, 21, 21);
   }
-}
 
-/* Media Screen Mobile Max 626px */
-
-@media (max-width: 484px) {
-  body {
-    font-size: 6px;
-    height: 545px;
-  }
   .btn_update {
     position: absolute;
-    top: calc(2.85rem - 2.6em);
-    left: calc(1.45rem - 2em);
+    top: calc(2.85rem - 2em);
+    left: 1.2rem;
     padding: 0.2rem 0.4rem;
     font-size: 8px;
-  }
-
-  .my_img {
-    position: relative;
-    top: -0.2rem;
-    left: 0;
-    width: 28px;
-    height: 28px;
-  }
-  .unread {
-    width: 12px;
-    height: 12px;
-    margin: 5px auto;
-  }
-  button.mark_all_read {
-    font-size: 8px;
-  }
-
-  .reaction_made {
-    min-width: 32vw;
-    width: calc(36vw);
-  }
-
-  .user_post .layer_user {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    gap: 0rem;
   }
 }
 
